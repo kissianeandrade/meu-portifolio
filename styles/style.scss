@@ -1,0 +1,117 @@
+// Variáveis de cores
+$cor-primaria: #3498db;
+$cor-secundaria: #2ecc71;
+$cor-fundo: #f4f4f4;
+
+// Estilos globais
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: $cor-fundo;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o body ocupe pelo menos a altura da tela */
+}
+
+header {
+    background-color: $cor-primaria;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            display: inline;
+            margin: 0 15px;
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+main {
+    flex: 1; /* Faz o conteúdo principal ocupar o espaço restante */
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+
+    h2 {
+        color: $cor-secundaria;
+    }
+}
+
+#habilidades {
+    ul {
+        list-style-type: none;
+        padding: 0;
+
+        li {
+            background-color: white;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    }
+}
+
+.projeto {
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    a {
+        color: $cor-primaria;
+        text-decoration: none;
+        font-weight: bold;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+#formacao {
+    .formacao-item {
+        background-color: white;
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        h3 {
+            color: $cor-secundaria;
+        }
+    }
+}
+
+#contato a {
+    color: $cor-primaria;
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+footer {
+    background-color: $cor-primaria;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px; /* Adiciona um espaço acima do rodapé */
+}

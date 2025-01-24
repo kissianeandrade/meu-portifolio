@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4fbed02c.css",
+    "main.js": "/static/js/main.eef6b5a1.js",
+    "static/media/ferrari.jpg": "/static/media/ferrari.f7c81cbe6f5c530bf916.jpg",
+    "static/media/porsche.jpg": "/static/media/porsche.b510d99a16f9063c15ba.jpg",
+    "static/media/kombi.jpg": "/static/media/kombi.c90c57009c727585492d.jpg",
+    "static/media/fusca.jpg": "/static/media/fusca.4606f907c58970a3a35e.jpg",
+    "index.html": "/index.html",
+    "main.4fbed02c.css.map": "/static/css/main.4fbed02c.css.map",
+    "main.eef6b5a1.js.map": "/static/js/main.eef6b5a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fbed02c.css",
+    "static/js/main.eef6b5a1.js"
+  ]
+}
